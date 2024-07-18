@@ -111,16 +111,30 @@ hr {
   margin-bottom:40px;  
 }
 
-#templo3 ul li::marker {
-  color: #E95E10;
+.casais {
+  color: #591B98;
+  font-weight: bold;
 }
 
-.closure {
+.familias {
+  color:#E5245E;
+  font-weight: bold;
+}
+
+.orcamento { 
+  color:#E95E10;
+  font-weight: bold;
+}
+.textofinal {
   text-align: center;
+}
+
+
+ul {
+  padding-left: 18px;
 }
 
 .footer {
   text-align: center;
-  
 }
 
