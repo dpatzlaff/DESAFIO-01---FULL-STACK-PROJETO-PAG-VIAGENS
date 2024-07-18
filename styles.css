@@ -12,13 +12,21 @@
   border-radius: 28px;
 }
 
-.subtitles {
+.subtitles1 {
   font-size: 16px;
   line-height: 22px;
   font-style: italic;
   text-align: center;
   color: #333333;
   margin-top: 24px;
+}
+
+hr {
+  border-color:#F5F4F0;
+  box-sizing:border-box;
+  width:100%;
+  margin-top: 40px;
+  margin-bottom:40px;  
 }
 
 #page { 
@@ -54,7 +62,7 @@ h1 {
   font-weight: bold;
 }
 
-.subtitle { 
+.subtitles2 { 
   font-family: "Open Sans", sans-serif;
   color: #E1624F;
   text-transform: uppercase;
@@ -103,13 +111,11 @@ h3 {
   font-size: 28px;
 }
 
-hr {
-  border-color:#F5F4F0;
-  box-sizing:border-box;
-  width:100%;
-  margin-top: 40px;
-  margin-bottom:40px;  
+.historia {
+  color: #0C51A7;
+  font-weight: bold;
 }
+
 
 .casais {
   color: #591B98;
@@ -129,6 +135,9 @@ hr {
   text-align: center;
 }
 
+ul li::marker {
+  color: #333333;
+}
 
 ul {
   padding-left: 18px;
